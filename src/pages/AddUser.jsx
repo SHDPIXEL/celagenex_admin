@@ -114,7 +114,7 @@ const AddUser = () => {
             value={formData.title}
             onChange={handleChange}
             className="p-3 rounded-lg border border-gray-300"
-            placeholder="Enter Password"
+            placeholder="Enter Title"
             required
           />
         </div>
