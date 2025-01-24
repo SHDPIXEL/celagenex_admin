@@ -30,7 +30,7 @@ const Sidebar = ({ setIsAuthenticated }) => {
       {/* Overlay for mobile */}
       {isSidebarOpen && (
         <div
-          className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-40"
+          className="lg:hidden fixed inset-0 bg-transparent bg-opacity-50 z-40"
           onClick={() => setIsSidebarOpen(false)}
         />
       )}

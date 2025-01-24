@@ -99,22 +99,22 @@ const Dashboard = () => {
                     />
                 ))}
             </div>
-            <section className="flex items-center justify-center mt-20 gap-x-10">
+            <section className="md:flex grid grid-cols-2 items-center justify-center mt-20 gap-x-10">
                 <div
                     onClick={handleBulkProcess}
-                    className="flex items-center justify-center h-20 px-14 bg-[#E4F5A0] hover:bg-[#F4FFC3] text-gray-800 shadow-sm gap-3 rounded-sm cursor-pointer">
-                    <Play className="h-5 w-5" />
+                    className="flex items-center justify-center h-20 md:px-14 px-5 bg-[#E4F5A0] hover:bg-[#F4FFC3] text-gray-800 shadow-sm gap-3 rounded-sm cursor-pointer">
+                        <Play className="h-5 w-5" />
                     <button
-                        className="font-semibold">
+                        className="font-semibold cursor-pointer">
                         Start Bulk Process
                     </button>
                 </div>
                 <div
                     onClick={handleDownload}
-                    className="flex items-center justify-center h-20 px-14 bg-[#E4F5A0] hover:bg-[#F4FFC3] text-gray-800 shadow-sm gap-3 rounded-sm cursor-pointer">
-                    <ArrowDownToLine className="h-5 w-5" />
+                    className="flex items-center justify-center h-20 md:px-14 px-5 bg-[#E4F5A0] hover:bg-[#F4FFC3] text-gray-800 shadow-sm gap-3 rounded-sm cursor-pointer">
+                    <ArrowDownToLine className="h-5 w-5 md:h-5 md:w-5" />
                     <button
-                        className="font-semibold">
+                        className="font-semibold cursor-pointer">
                             Download
                     </button>
                 </div>

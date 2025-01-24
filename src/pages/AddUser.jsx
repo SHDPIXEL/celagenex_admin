@@ -96,7 +96,7 @@ const AddUser = () => {
             value={formData.emp_code}
             onChange={handleChange}
             className="p-3 rounded-lg border border-gray-300"
-            placeholder="Enter Employee Code"
+            placeholder="Enter Employee Id"
             required
           />
         </div>
