@@ -36,6 +36,11 @@ const Dashboard = () => {
 
     const handleBulkProcess = () => {
         toast.success("Bulk Process Started");
+        const downloadPromise = API.get("/api/auth/process-pending-videos").then(response => {
+            toast.success("Bulk Process Started");
+        });
+    
+        
     }
 
     const handleDownload = () => {
